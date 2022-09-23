@@ -67,7 +67,7 @@ ROOT_URLCONF = 'ccgenerator.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / "template"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -135,3 +135,9 @@ STATIC_ROOT = "app-root/repo/wsgi/static"
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# addedd manually
+STATICFILES_DIRS = [
+    BASE_DIR / "static"
+]

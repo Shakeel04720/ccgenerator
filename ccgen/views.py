@@ -98,8 +98,8 @@ def index(request):
         return HttpResponse(f"{binchecked}")
 
     else:
-        return HttpResponse("No Bin")
-
+        return render(request, 'index.html')
+    return render(request, 'index.html')
 #
 #
 #
