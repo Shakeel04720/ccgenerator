@@ -35,6 +35,7 @@ CORS_ORIGIN_ALLOW_ALL = False
 CORS_ORIGIN_WHITELIST = (
        'http://127.0.0.1',
        'http://bot.iamabsofficial.com/',
+       'https://bot.iamabsofficial.com/',
 )
 
 
