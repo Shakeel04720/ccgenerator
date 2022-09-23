@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS=[
     'http://localhost/',
     '127.0.0.1',
-    'https://ccgen1.herokuapp.com'
+    'ccgen1.herokuapp.com'
     ]
 
 
